@@ -1,0 +1,11 @@
+.page {
+    display: flex;
+    justify-content: center;
+    gap: 96px;
+    
+}
+
+/* Header */
+.reservation {
+    background-image: url("../img/reservation_bg.jpg");
+}
