@@ -1,4 +1,4 @@
-.page {
+.menu__page {
     display: flex;
     justify-content: center;
     gap: 96px;
@@ -16,15 +16,15 @@
 }
 .menu__content {
     max-width: 840px;
-    width: 100%;
+    margin-right: 105px;
 }
 
 .menu__content-items {
     max-width: 504px;
     min-height: 74px;
     padding: 24px 32px;
-    margin-right: 168px;
     margin: 0 auto;
+    margin-right: 105px;
 }
 
 .menu__content-list {
@@ -160,10 +160,22 @@
 
 /* Media */
 @media screen and (max-width: 1600px) {
-    .page {
+    .menu__page {
         flex-direction: column;
         gap: 20px;
         align-items: center;;
+    }
+
+    .header {
+        max-width: 1680px;
+    }
+
+    .menu__content {
+        margin-right: 0;
+    }
+    
+    .menu__content-items {
+        margin-right: 0;
     }
 
     .footer {
@@ -183,10 +195,6 @@
     }
 }
 
-@media screen and (max-width: 850px) {
- 
-}
-
 @media screen and (max-width: 768px) {
     .navbar {
         width: 320px;
@@ -204,7 +212,7 @@
     }
 
     .menu__content-items {
-        margin-right: 0;
+        margin-right: 10px;
     }
 
     .menu__cards-items {
@@ -240,23 +248,14 @@
         height: 46px;
     }
 
-    .menu__cards-items {
-        padding: 0 20px;
-    }    
-}
-
-@media screen and (max-width: 480px) {
-    .header__subtitle {
-        font-size: 60px;
-    }
-    .header__title {
-        font-size: 60px;
-    }
-
     .menu__content-list {
         flex-direction: column;
         gap: 10px;
         align-items: start;
+    }
+
+    .menu__cards-items {
+        padding: 0 20px;
     }
 
     .footer__content {
@@ -273,12 +272,18 @@
     }
 }
 
+@media screen and (max-width: 480px) {
+    .header__subtitle {
+        font-size: 60px;
+    }
+    .header__title {
+        font-size: 60px;
+    }
+}
+
 @media screen and (max-width: 375px) {
     .navbar {
         width: 270px;
-    }
-
-    .menu__navbar {
         right: 5px;
     }
 
@@ -299,7 +304,6 @@
         padding: 8px 10px;
         width: 128px;
         height: 36px;
-
     }
 
     .menu__starter-description {

@@ -6,14 +6,15 @@
     <title>Nique - Restaurant Website</title>
     <link rel="icon" href="img/logo.svg" type="image/x-icon">
     <link rel="stylesheet" href="style/index.css">
+    <link rel="stylesheet" href="style/reservation.css">
 </head>
 <body>
 
-    <div class="page">
+    <div class="reservation__page">
 
         <header class="reservation header">
             <div class="container">
-                <a href="/"><img class="reservation__logo header__logo" src="img/logo.svg" alt="Restaurant logo"></a>
+                <a href="index.html"><img class="reservation__logo header__logo" src="img/logo.svg" alt="Restaurant logo"></a>
     
                 <div class="reservation__text header__text">
                     <h2 class="reservation__subtitle header__subtitle">Book a table</h2>
@@ -34,7 +35,44 @@
         </header>
 
         <main>
-            
+            <section class="reservation__content">
+                <div class="container">
+                <div class="reservation__content-text">
+                    <h3 class="reservation__content-title">Book a table</h3>
+                    <p class="reservation__content-description">Our dining atmosphere is casual and comfortable. To reflect this environment, we maintain a formal dress.</p>
+                </div>
+
+                <form class="reservation__form">
+                    <fieldset class="reservation__group">
+                        <legend class="visually-hidden">Book a table</legend>
+                        <label class="reservation__label">
+                            <span class="reservation__label-text">Name</span>
+                            <input class="reservation__input" type="text" name="name" placeholder="Name">
+                        </label>
+
+                        <label class="reservation__label">
+                            <span class="reservation__label-text">Number of guests</span>
+                            <input class="reservation__input" type="number" name="number" placeholder="2">
+                        </label>
+
+                        <label class="reservation__label-data">
+                            <div class="reservation__date">
+                            <span class="reservation__data-text">Date</span>
+                            <input class="reservation__input-data" type="number" name="date" placeholder="19.08.22">
+                        </div>
+                        <div class="reservation__time">
+                            <span class="reservation__data-text">Time</span>
+                            <input class="reservation__input-data" type="number" name="time" placeholder="6:00pm">
+                        </div>
+                        </label>
+                    </fieldset>
+
+                    <button class="reservation__button" type="submit">Book a table</button>
+
+                </form>
+
+            </div>
+            </section>
 
         </main>
 
