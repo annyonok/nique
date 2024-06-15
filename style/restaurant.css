@@ -1,0 +1,77 @@
+.restaurant__page {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.restaurant__logo {
+    margin-bottom: 299px;
+}
+
+.restaurant__title {
+    font-weight: 500;
+    font-size: 160px;
+    line-height: 144px;
+}
+
+.restaurant__content {
+    background-image: url("../img/restaurant_bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 800px;
+    text-align: center;
+}
+
+.card {
+    max-width: 1680px;
+    width: 100%;
+    text-align: center;
+}
+
+.card__picture {
+    max-width: 665px;
+    height: 800px;
+}
+
+/* Swiper */
+.swiper-button-prev, 
+.swiper-button-next {
+    color: #fff;
+}
+
+/* Media */
+@media screen and (max-width: 768px) {
+    .restaurant__subtitle {
+        font-size: 60px;
+    }
+    
+    .restaurant__title {
+        font-size: 122px;
+        margin-bottom: 0;
+    }
+}
+
+@media screen and (max-width: 586px) {
+    .restaurant__title {
+        font-size: 80px;
+    }
+
+    .restaurant__navbar {
+        width: 250px;
+    }
+
+    .restaurant__navbar-btn {
+        width: 100px;
+        height: 12px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .restaurant__subtitle {
+        font-size: 50px;
+    }
+
+    .restaurant__title {
+        font-size: 60px;
+    }
+}
