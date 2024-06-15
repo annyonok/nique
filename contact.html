@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nique - Restaurant Website</title>
+    <link rel="icon" href="img/logo.svg" type="image/x-icon">
+    <link rel="stylesheet" href="style/index.css">
+    <link rel="stylesheet" href="style/contact.css">
+</head>
+
+<body>
+
+        <main class="contacts__page">
+
+        <section class="contacts cover">
+            <div class="container">
+                <a href="index.html"><img class="contacts__logo cover__logo" src="img/logo.svg"
+                        alt="Restaurant logo"></a>
+
+                <div class="contacts__text cover__text">
+                    <h2 class="contacts__subtitle cover__subtitle">Contact</h2>
+                    <h1 class="contacts__title cover__title">Get in Touch</h1>
+                </div>
+
+                <nav class="contacts__navbar navbar cover__navbar">
+                    <img class="contacts__navbar-time navbar__time" src="img/icon_time.svg" alt="Icon clock">
+                    <ul class="contacts__navbar-menu navbar__menu">
+                        <li class="contacts__navbar-item navbar__item"><a href="menu.html">Menu</a></li>
+                        <li class="contacts__navbar-item navbar__item"><a href="#">Restaurant</a></li>
+                        <li class="contacts__navbar-item navbar__item"><a href="#">Classes</a></li>
+                    </ul>
+
+                    <a class="contacts__navbar-btn navbar__btn" href="#">Book a Table</a>
+                </nav>
+            </div>
+        </section>
+
+        
+            <section class="contacts__content">
+                <div class="container">
+                    <div class="contacts__content-text">
+                        <p class="contacts__content-description">Volutpat maecenas volutpat blandit aliquam etiam erat velit scelerisque. Arcu non odio euismod lacinia. Tortor aliquam nulla facilisi cras fermentum odio eu.</p>
+                    </div>
+
+                    <form class="contacts__form">
+                        <fieldset class="contacts__group">
+                            <legend class="visually-hidden">Get in Touch</legend>
+                            <label class="contacts__label">
+                                <span class="contacts__label-text">Name</span>
+                                <input class="contacts__input" type="text" name="name" placeholder="Enter your name" required>
+                            </label>
+
+                            <label class="contacts__label">
+                                <span class="contacts__label-text">Email</span>
+                                <input class="contacts__input" type="email" name="email" placeholder="Your email address" required>
+                            </label>
+
+                            <label class="contacts__label">
+                                    <span class="contacts__label-text">Message</span>
+                                    <textarea class="contacts__input message" name="message" placeholder="Your message" required></textarea>
+                                </label>
+                        </fieldset>
+
+                        <button class="contacts__button" type="submit">Book a table</button>
+
+                    </form>
+
+                </div>
+            </section>
+
+        </main>
+
+</body>
+
+</html>

@@ -5,7 +5,7 @@
     
 }
 
-/* Header */
+/* Cover */
 .menu {
     background-image: url("../img/menu_bg.jpg");
 }
@@ -133,41 +133,12 @@
     line-height: 20px;
 }
 
-/* Footer bigscreen*/
-@media (min-width: 1720px) {
-    .footer {
-        right: 150px;
-    }
-}
-
-@media (min-width: 1920px) {
-    .footer {
-        right: 200px;
-    }
-}
-
-@media (min-width: 2060px) {
-    .footer {
-        right: 300px;
-    }
-}
-
-@media (min-width: 2264px) {
-    .footer {
-        right: 400px;
-    }
-}
-
 /* Media */
 @media screen and (max-width: 1600px) {
     .menu__page {
         flex-direction: column;
         gap: 20px;
         align-items: center;;
-    }
-
-    .header {
-        max-width: 1680px;
     }
 
     .menu__content {
@@ -177,40 +148,9 @@
     .menu__content-items {
         margin-right: 0;
     }
-
-    .footer {
-        right: 20px;
-    }
-}
-
-@media screen and (max-width: 1300px) {
-    .navbar {
-        right: 399px;
-    }
-}
-
-@media screen and (max-width: 1068px) {
-    .navbar {
-        right: 199px;
-    }
 }
 
 @media screen and (max-width: 768px) {
-    .navbar {
-        width: 320px;
-        bottom: 30px;
-    }
-
-    .navbar__menu {
-        flex-direction: column;
-        align-items: start;
-        gap: 10px;
-    }
-
-    .navbar__time {
-        margin-left: 0;
-    }
-
     .menu__content-items {
         margin-right: 10px;
     }
@@ -237,17 +177,6 @@
 }
 
 @media screen and (max-width: 586px) {
-    .menu__navbar {
-        right: 35px;
-    }
-
-    .navbar__btn {
-        font-size: 10px;
-        padding: 16px 10px;
-        width: 120px;
-        height: 46px;
-    }
-
     .menu__content-list {
         flex-direction: column;
         gap: 10px;
@@ -257,36 +186,9 @@
     .menu__cards-items {
         padding: 0 20px;
     }
-
-    .footer__content {
-        flex-direction: column;
-        gap: 20px;
-    }
-
-    .footer__items {
-        gap: 10px;
-    }
-
-    .footer__item {
-        margin-bottom: 0;
-    }
-}
-
-@media screen and (max-width: 480px) {
-    .header__subtitle {
-        font-size: 60px;
-    }
-    .header__title {
-        font-size: 60px;
-    }
 }
 
 @media screen and (max-width: 375px) {
-    .navbar {
-        width: 270px;
-        right: 5px;
-    }
-
     .menu__cards-subtitle {
         font-size: 18px;
     }

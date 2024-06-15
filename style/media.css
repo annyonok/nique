@@ -1,0 +1,114 @@
+/* Footer bigscreen*/
+@media (min-width: 1720px) {
+    .footer {
+        right: 150px;
+    }
+}
+
+@media (min-width: 1920px) {
+    .footer {
+        right: 200px;
+    }
+}
+
+@media (min-width: 2060px) {
+    .footer {
+        right: 300px;
+    }
+}
+
+@media (min-width: 2264px) {
+    .footer {
+        right: 400px;
+    }
+}
+
+
+/* Cover / Navbar / Footer */
+@media screen and (max-width: 1600px) {
+    .cover {
+        max-width: 1600px;
+    }
+
+    .footer {
+        right: 20px;
+    }
+}
+
+@media screen and (max-width: 1300px) {
+    .navbar {
+        right: 399px;
+    }
+}
+
+@media screen and (max-width: 1068px) {
+    .navbar {
+        right: 199px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .navbar {
+        width: 320px;
+        bottom: 30px;
+    }
+
+    .navbar__menu {
+        flex-direction: column;
+        align-items: start;
+        gap: 10px;
+    }
+
+    .navbar__time {
+        margin-left: 0;
+    }
+}
+
+@media screen and (max-width: 586px) {
+    .navbar {
+        right: 5px;
+    }
+
+    .navbar__btn {
+        font-size: 10px;
+        padding: 16px 10px;
+        width: 120px;
+        height: 46px;
+    }
+
+    .footer__content {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .footer__items {
+        gap: 10px;
+    }
+
+    .footer__item {
+        margin-bottom: 0;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .cover__subtitle {
+        font-size: 60px;
+    }
+    .cover__title {
+        font-size: 60px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .navbar {
+        width: 270px;
+    }
+
+    .cover__subtitle {
+        font-size: 40px;
+    }
+
+    .cover__title {
+        font-size: 40px;
+    }
+}

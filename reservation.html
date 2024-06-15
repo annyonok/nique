@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,75 +9,79 @@
     <link rel="stylesheet" href="style/index.css">
     <link rel="stylesheet" href="style/reservation.css">
 </head>
+
 <body>
 
-    <div class="reservation__page">
+        <main class="reservation__page">
 
-        <header class="reservation header">
+        <section class="reservation cover">
             <div class="container">
-                <a href="index.html"><img class="reservation__logo header__logo" src="img/logo.svg" alt="Restaurant logo"></a>
-    
-                <div class="reservation__text header__text">
-                    <h2 class="reservation__subtitle header__subtitle">Book a table</h2>
-                    <h1 class="reservation__title header__title">Reservation</h1>
+                <a href="index.html"><img class="reservation__logo cover__logo" src="img/logo.svg"
+                        alt="Restaurant logo"></a>
+
+                <div class="reservation__text cover__text">
+                    <h2 class="reservation__subtitle cover__subtitle">Book a table</h2>
+                    <h1 class="reservation__title cover__title">Reservation</h1>
                 </div>
-    
-                <nav class="reservation__navbar navbar header__navbar">
+
+                <nav class="reservation__navbar navbar cover__navbar">
                     <img class="reservation__navbar-time navbar__time" src="img/icon_time.svg" alt="Icon clock">
                     <ul class="reservation__navbar-menu navbar__menu">
                         <li class="reservation__navbar-item navbar__item"><a href="menu.html">Menu</a></li>
                         <li class="reservation__navbar-item navbar__item"><a href="#">Restaurant</a></li>
                         <li class="reservation__navbar-item navbar__item"><a href="#">Classes</a></li>
                     </ul>
-    
+
                     <a class="reservation__navbar-btn navbar__btn" href="#">Book a Table</a>
                 </nav>
             </div>
-        </header>
+        </section>
 
-        <main>
+        
             <section class="reservation__content">
                 <div class="container">
-                <div class="reservation__content-text">
-                    <h3 class="reservation__content-title">Book a table</h3>
-                    <p class="reservation__content-description">Our dining atmosphere is casual and comfortable. To reflect this environment, we maintain a formal dress.</p>
+                    <div class="reservation__content-text">
+                        <h3 class="reservation__content-title">Book a table</h3>
+                        <p class="reservation__content-description">Our dining atmosphere is casual and comfortable. To
+                            reflect this environment, we maintain a formal dress.</p>
+                    </div>
+
+                    <form class="reservation__form">
+                        <fieldset class="reservation__group">
+                            <legend class="visually-hidden">Book a table</legend>
+                            <label class="reservation__label">
+                                <span class="reservation__label-text">Name</span>
+                                <input class="reservation__input" type="text" name="name" placeholder="Name" required>
+                            </label>
+
+                            <label class="reservation__label">
+                                <span class="reservation__label-text">Number of guests</span>
+                                <input class="reservation__input" type="number" name="number" placeholder="2" required>
+                            </label>
+
+                            <label class="reservation__label-data">
+                                <div class="reservation__date">
+                                    <span class="reservation__data-text">Date</span>
+                                    <input class="reservation__input-data" type="number" name="date"
+                                        placeholder="19.08.22" required>
+                                </div>
+                                <div class="reservation__time">
+                                    <span class="reservation__data-text">Time</span>
+                                    <input class="reservation__input-data" type="number" name="time"
+                                        placeholder="6:00pm" required>
+                                </div>
+                            </label>
+                        </fieldset>
+
+                        <button class="reservation__button" type="submit">Book a table</button>
+
+                    </form>
+
                 </div>
-
-                <form class="reservation__form">
-                    <fieldset class="reservation__group">
-                        <legend class="visually-hidden">Book a table</legend>
-                        <label class="reservation__label">
-                            <span class="reservation__label-text">Name</span>
-                            <input class="reservation__input" type="text" name="name" placeholder="Name">
-                        </label>
-
-                        <label class="reservation__label">
-                            <span class="reservation__label-text">Number of guests</span>
-                            <input class="reservation__input" type="number" name="number" placeholder="2">
-                        </label>
-
-                        <label class="reservation__label-data">
-                            <div class="reservation__date">
-                            <span class="reservation__data-text">Date</span>
-                            <input class="reservation__input-data" type="number" name="date" placeholder="19.08.22">
-                        </div>
-                        <div class="reservation__time">
-                            <span class="reservation__data-text">Time</span>
-                            <input class="reservation__input-data" type="number" name="time" placeholder="6:00pm">
-                        </div>
-                        </label>
-                    </fieldset>
-
-                    <button class="reservation__button" type="submit">Book a table</button>
-
-                </form>
-
-            </div>
             </section>
 
         </main>
 
-    </div>
-    
 </body>
+
 </html>
