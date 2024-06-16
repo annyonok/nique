@@ -36,7 +36,7 @@
 /* Swiper */
 .swiper-button-prev, 
 .swiper-button-next {
-    color: #fff;
+    color: var(--text-default);
 }
 
 /* Media */

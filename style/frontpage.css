@@ -26,7 +26,7 @@
     font-weight: 400;
     font-size: 80px;
     line-height: 72px;
-    color: #FACE8D;
+    color: var(--text-primary);
 }
 
 .frontpage__title {
@@ -50,8 +50,8 @@
     padding: 16px 24px;
     width: 250px;
     height: 163px;
-    background-color: #FFFFFF;
-    color: #081212;
+    background-color: var(--text-default);
+    color: var(--text-inverse);
     margin-left: 961px;
 }
 

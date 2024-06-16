@@ -14,7 +14,7 @@
     font-weight: 400;
     font-size: 64px;    
     line-height: 45px;
-    color: #FACE8D;
+    color: var(--text-primary);
 }
 
 .classes__title {
@@ -29,7 +29,7 @@
     font-size: 16px;
     line-height: 26px; 
     text-align: center;
-    color: rgba(255, 255, 255, 0.8);
+    color: var(--text-muted);
 }
 
 .classes__content {
@@ -78,8 +78,8 @@
     padding: 16px 24px;
     width: 90px;
     height: 90px;
-    background-color: #f8d49e;
-    color: #081212;
+    background-color: var(--background-primary);
+    color: var(--text-inverse);
     font-weight: 500;
     font-size: 14px;
     line-height: 18px; 
@@ -111,7 +111,7 @@
 /* Swiper */
 .swiper-button-prev, 
 .swiper-button-next {
-    color: #fff;
+    color: var(--text-default);
 }
 
 /* Media */

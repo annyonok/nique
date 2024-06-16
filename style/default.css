@@ -12,8 +12,8 @@ html {
 body {
     font-family: "Chillax", sans-serif;
     font-weight: 400;
-    color: #FFFFFF;
-    background-color: #050505;
+    color: var(--text-default);
+    background-color: var(--background-default);
 }
 
 img {
@@ -43,7 +43,7 @@ ul {
     margin: 0;
 }
 
-h1, h2, h3, p {
+h1, h2, h3, h4, p {
     margin: 0;
 }
 
@@ -81,6 +81,19 @@ legend {
     padding: 0;
 }
 
+:root {
+	--text-default: #fff;
+	--text-muted: rgba(255, 255, 255, 0.8);
+	--text-primary: #face8d;
+	--text-inverse: #081212;
+	--background-default: #050505;
+	--background-primary: #f8d49e;
+	--border-default: rgba(255, 255, 255, 0.1);
+	--icon-default: #fff;
+	--icon-primary: #f8d49e;
+	--icon-inverse: #081212;
+}
+
 /* Cover */
 .cover {
     max-width: 840px;
@@ -98,6 +111,12 @@ legend {
     height: 29px;
     margin-top: 64px;
     margin-bottom: 334px;
+    transform: scale(1);
+    transition: transform 0.5s;
+}
+
+.cover__logo:hover {
+    transform: scale(1.5);
 }
 
 .cover__text {
@@ -111,7 +130,7 @@ legend {
     font-weight: 400;
     font-size: 80px;
     line-height: 72px;
-    color: #FACE8D;
+    color: var(--text-primary);
 }
 
 .cover__title {
@@ -134,8 +153,8 @@ legend {
     padding: 10px;
     width: 520px;
     max-height: 68px;
-    background-color: #FFFFFF;
-    color: #081212;
+    background-color: var(--text-default);
+    color: var(--text-inverse);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -163,7 +182,7 @@ legend {
 }
 
 .navbar__item:hover {
-    color: #5d5f5f;
+    color: var(--text-inverse);
 }
 
 .navbar__item::after {
@@ -174,7 +193,7 @@ legend {
     width: 0;
     height: 2.4px;
     transform: translateX(-50%);
-    background-color: #5d5f5f;
+    background-color: var(--text-inverse);
     transition: all 0.5s ease;
 }
 
@@ -189,7 +208,7 @@ legend {
     max-width: 160px;
     max-height: 46px;
     background-color: #111111;
-    color: #FFFFFF;
+    color: var(--text-default);
     font-weight: 500;
     font-size: 14px;
     line-height: 14px; 
@@ -225,6 +244,12 @@ legend {
 .footer__logo {
     width: 97px;
     height: 29px;
+    transform: scale(1);
+    transition: transform 0.5s;
+}
+
+.footer__logo:hover {
+    transform: scale(1.5);
 }
 
 .footer__items {
@@ -244,10 +269,19 @@ legend {
     font-size: 16px;
     line-height: 26px;
     margin-bottom: 16px;
+    color: var(--text-muted);
 }
 
 .menu__footer-item:last-child {
     margin-bottom: 0;
+}
+
+.disabled {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    margin-bottom: 16px;
+    color: rgba(255, 255, 255, 0.5);
 }
 
 

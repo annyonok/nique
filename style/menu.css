@@ -14,6 +14,7 @@
 .content {
     position: relative;
 }
+
 .menu__content {
     max-width: 840px;
     margin-right: 105px;
@@ -24,6 +25,7 @@
     min-height: 74px;
     padding: 24px 32px;
     margin: 0 auto;
+    margin-bottom: 80px;
     margin-right: 105px;
 }
 
@@ -37,13 +39,14 @@
 .menu__content-item {
     font-weight: 400;
     font-size: 16px;
-    line-height: 26px
+    line-height: 26px;
+    color: var(--text-muted);
 }
 
 .menu__content-item:visited,
 .menu__content-item:hover,
 .menu__content-item:active {
-    color: #FACE8D;
+    color: var(--text-primary);
 }
 
 .menu__cards-items {
@@ -55,7 +58,7 @@
     font-weight: 400;
     font-size: 64px;
     line-height: 45px;
-    color: #FACE8D;
+    color: var(--text-primary);
     margin-bottom: 32px;
 }
 
@@ -91,7 +94,7 @@
 
 .line {
     text-decoration: line-through;
-    color: #ada9a9;
+    color: var(--text-muted);
     padding: 0;
 }
 
@@ -99,6 +102,7 @@
     font-weight: 400;
     font-size: 16px;
     line-height: 26px;
+    color: var(--text-muted);
 }
 
 .prise__items {
@@ -109,7 +113,7 @@
 
 .menu__cards-starter {
     position: relative;
-    border: 1px solid #F8D49E;
+    border: 1px solid var(--text-primary);
     border-radius: 16px;
     max-width: 638px;
     min-height: 104px;
@@ -121,8 +125,8 @@
     padding: 8px 12px;
     width: 148px;
     height: 36px;
-    background-color: #F8D49E;    
-    color: #081212;
+    background-color: var(--background-primary);    
+    color: var(--text-inverse);
     right: 20px;
     top: -20px;
 }
@@ -146,6 +150,7 @@
     }
     
     .menu__content-items {
+        margin-bottom: 50px;
         margin-right: 0;
     }
 }

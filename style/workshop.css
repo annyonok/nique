@@ -1,0 +1,265 @@
+.workshop__page {
+    display: flex;
+    justify-content: center;
+    gap: 96px;
+}
+
+/* Cover */
+.workshop {
+    background-image: url("../img/workshop_bg.jpg");
+}
+
+/* Main */
+.content {
+    position: relative;
+}
+
+/* Content */
+.workshop__content {
+    max-width: 840px;
+    padding: 96px 80px;    
+}
+
+.workshop__content-text {
+    max-width: 560px;
+    min-height: 269px;
+    margin-bottom: 80px;
+}
+
+.workshop__content-subtitle {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    margin-bottom: 8px;
+    color: var(--text-muted);
+}
+
+.workshop__content-title {
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 40px;
+    margin-bottom: 16px;
+}
+
+.workshop__content-description {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 29px;
+    margin-bottom: 32px;
+    color: var(--text-muted);
+}
+
+.workshop__content-buy {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}
+
+.workshop__content-button {
+    display: block;
+    border-radius: 500px;
+    padding: 22px 30px;
+    width: 181px;
+    height: 60px;
+    background-color: var(--background-primary);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 16px; 
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    text-align: center;
+    color: var(--text-inverse);
+    transition-property: background-color, transform;
+    transition-duration: 0.3s, 0.1s;
+    transition-timing-function: ease-in-out;
+}
+
+.workshop__content-button:hover {
+    background: #dab378; 
+}
+
+.workshop__content-button:active {
+    transform: scale(0.9);
+}
+
+.workshop__content-price {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 38px;
+}
+
+/* Details */
+.workshop__items {
+}
+
+.workshop__item {
+    max-width: 560px;
+    min-height: 434px;
+    margin-bottom: 80px;
+}
+
+.workshop__item-title {
+    font-family: "Bitter Rose", sans-serif;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 64px; 
+    color: var(--text-primary);
+}
+
+.workshop__details {
+}
+
+.workshop__details-items {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid var(--border-default);
+}
+
+.workshop__details-items:last-child {
+    border-bottom: none;
+}
+
+.workshop__details-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 32px;
+    margin: 24px 0;
+}
+
+.workshop__details-description {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 29px;
+    text-align: right;
+    color: var(--text-muted);
+}
+
+.workshop__details-item {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+    align-items: center;
+}
+
+.workshop__details-img {
+    align-self: center;
+}
+
+/* Menu */
+.workshop__menu {
+    margin-bottom: 80px;
+}
+
+.menu__title {
+    margin-bottom: 32px;
+}
+
+.workshop__cards-content {
+    max-width: 560px;
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 32px;
+}
+
+.workshop__cards-img {
+    border-radius: 10px;
+    margin-right: 24px;
+}
+
+.workshop__cards-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.workshop__cards-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 32px;
+}
+
+.workshop__cards-description {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px; 
+    color: var(--text-muted);
+}
+
+/* Teacher */
+.workshop__cards-content {
+    margin-bottom: 24px;
+}
+
+.teacher__img {
+    border-radius: 100px;
+    width: 90px;
+    height: 90px;
+}
+.workshop__socials {
+    display: flex;
+    gap: 16px;
+    padding-left: 110px;
+}
+
+.social__icon {
+    cursor: pointer;
+    transform: scale(1);
+    transition: transform 0.5s;
+}
+
+.social__icon:hover {
+    transform: scale(1.5);
+}
+
+
+/* Media */
+@media screen and (max-width: 1600px) {
+    .workshop__page {
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;;
+    }
+}
+
+@media screen and (max-width: 586px) {
+    .workshop__content {
+        padding: 50px 20px;    
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .workshop__content-buy {
+        gap: 20px;
+    }
+
+    .workshop__content-button {
+        padding: 22px 15px;
+        width: 161px;
+    }
+
+    .workshop__details-items {
+        flex-direction: column;
+        align-items: start;
+    }
+
+    .workshop__details-title {
+        margin: 0;
+        margin-top: 15px;
+    }
+
+    .workshop__details-description {
+        text-align: left;
+    }
+
+    .workshop__cards-content {
+        flex-direction: column;
+    }
+
+    .workshop__cards-img {
+        margin-bottom: 18px;
+    }
+
+    .workshop__socials {
+    padding-left: 0;
+    }
+}

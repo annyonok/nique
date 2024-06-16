@@ -33,6 +33,7 @@
     font-weight: 400;
     font-size: 20px;
     line-height: 32px;
+    color: var(--text-muted);
 }
 
 .contacts__form {
@@ -53,7 +54,7 @@
 }
 
 .contacts__input {
-    border: 1px solid rgba(255, 255, 255, 0.1);
+    border: 1px solid var(--border-default);
     border-radius: 10px;
     padding: 16px 24px;
     width: 680px;
@@ -62,8 +63,8 @@
     font-size: 18px;
     line-height: 29px;
     margin-bottom: 48px;
-    background-color: #050505;
-    color: #FFFFFF;
+    background-color: var(--background-default);
+    color: var(--text-muted);
 }
 
 .message {
@@ -77,13 +78,13 @@
     height: 60px;
     border-radius: 500px;
     padding: 16px 24px;
-    background-color: #F8D49E;
+    background-color: var(--background-primary);
     font-weight: 500;
     font-size: 16px;
     line-height: 16px; 
     letter-spacing: 1px;
     text-transform: uppercase;
-    color: #081212;
+    color: var(--text-inverse);
     transition-property: background-color, transform;
     transition-duration: 0.3s, 0.1s;
     transition-timing-function: ease-in-out;
