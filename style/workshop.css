@@ -95,7 +95,7 @@
 .workshop__item {
     max-width: 560px;
     min-height: 434px;
-    margin-bottom: 80px;
+    margin-bottom: 40px;
 }
 
 .workshop__item-title {
@@ -148,7 +148,7 @@
 
 /* Menu */
 .workshop__menu {
-    margin-bottom: 80px;
+    margin-bottom: 100px;
 }
 
 .menu__title {
