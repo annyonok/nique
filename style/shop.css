@@ -1,0 +1,69 @@
+.shop__page {
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+}
+
+/* Cover */
+.shop {
+    background-image: url("../img/shop_bg.jpg");
+}
+
+/* Main */
+.content {
+    position: relative;
+}
+
+/* Cards */
+.shop__cards {
+    width: 840px;
+    margin-top: 80px;
+}
+
+.shop__card {
+    display: flex;
+    gap: 32px;
+    max-width: 680px;
+    min-height: 984px;
+    margin-bottom: 48px;
+}
+
+.shop__card-pictures {
+    background-image: url("../img/shop_card_bg.png");
+    width: 280px;
+    height: 210px;
+}
+
+.shop__card-img {
+    border-radius: 4px;
+    width: 144px;
+    height: 86px;
+    margin: 60px;
+}
+
+.shop__card-text {
+    max-width: 368px;
+    min-height: 150px;
+    padding: 30px 0;
+}
+
+.shop__card-price {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px; 
+    color: var(--text-primary);
+}
+
+.shop__card-title {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 38px;
+    margin-bottom: 8px;
+}
+
+.shop__card-description {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    opacity: 0.6;
+}

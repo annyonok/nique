@@ -94,7 +94,7 @@
 
 .line {
     text-decoration: line-through;
-    color: var(--text-muted);
+    opacity: 0.6;
     padding: 0;
 }
 
@@ -102,7 +102,7 @@
     font-weight: 400;
     font-size: 16px;
     line-height: 26px;
-    color: var(--text-muted);
+    opacity: 0.6;
 }
 
 .prise__items {

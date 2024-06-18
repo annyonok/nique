@@ -269,7 +269,7 @@ legend {
     font-size: 16px;
     line-height: 26px;
     margin-bottom: 16px;
-    color: var(--text-muted);
+    opacity: 0.6;
 }
 
 .menu__footer-item:last-child {
