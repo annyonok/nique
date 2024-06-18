@@ -47,6 +47,10 @@ h1, h2, h3, h4, p {
     margin: 0;
 }
 
+section {
+    padding: 30px 0;
+}
+
 .container {
     max-width: 1680px;
     padding: 0 15px;
