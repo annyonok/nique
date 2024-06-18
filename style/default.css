@@ -53,10 +53,6 @@ h1, h2, h3, h4, p {
     margin: 0 auto;
 }
 
-section {
-    padding: 30px 0;
-}
-
 .visually-hidden {
     position: absolute !important;
     clip: rect(1px 1px 1px 1px);
