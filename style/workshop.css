@@ -89,9 +89,6 @@
 }
 
 /* Details */
-.workshop__items {
-}
-
 .workshop__item {
     max-width: 560px;
     min-height: 434px;
@@ -104,9 +101,6 @@
     font-size: 64px;
     line-height: 64px; 
     color: var(--text-primary);
-}
-
-.workshop__details {
 }
 
 .workshop__details-items {
