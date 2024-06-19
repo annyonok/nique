@@ -8,14 +8,4 @@ new Swiper('.swiper', {
   slidesPerView: 1,
   spaceBetween: 10,
 },
-      
-  //   breakpoints: {
-  //   1440: {
-  //       slidesPerView: 1,
-  //       grid: {
-  //           fill: 'row',
-  //           rows: 1
-  //         }        
-  //       }
-  // }
 });

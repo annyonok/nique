@@ -3,6 +3,7 @@
     margin: 0 auto;
 }
 
+/* Slider */
 .restaurant__logo {
     margin-bottom: 299px;
 }
@@ -33,7 +34,6 @@
     height: 800px;
 }
 
-/* Swiper */
 .swiper-button-prev, 
 .swiper-button-next {
     color: var(--text-default);
